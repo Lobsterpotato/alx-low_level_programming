@@ -15,7 +15,6 @@ void *malloc_checked(unsigned int b)
     i = malloc(b);
     if (i == NULL)
     {
-        perror("malloc");
         exit(98);
     }
     return (i);
