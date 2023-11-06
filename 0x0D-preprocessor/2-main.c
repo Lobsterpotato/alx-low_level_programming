@@ -1,6 +1,13 @@
 #include <stdio.h>
 
-int main(int argc, char *argv[]) {
-    printf("This program was compiled from the file: %s\n", argv[0]);
-    return 0;
+/**
+ *main - prints the name of the file
+ *
+ *Return: always 0
+*/
+
+int main(void)
+{
+    printf("%s\n", __FILE__);
+    return (0);
 }
