@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() {
-    printf("This program was compiled from the file: %s\n", __FILE__);
+int main(int argc, char *argv[]) {
+    printf("This program was compiled from the file: %s\n", argv[0]);
     return 0;
 }
